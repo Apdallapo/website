@@ -1,0 +1,61 @@
+
+body {
+  background-color: pink;
+  padding: 0px;
+  font-family: fantasy;
+  text-transform:uppercase;
+}
+
+
+.navbar {
+  background-color: greenyellow;
+  overflow: hidden;
+}
+
+.navbar ul {
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar li {
+  flex: 1;
+}
+
+.navbar a {
+  display: block;
+  color: brown;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+  background-color: #575757;
+}
+header {
+  background-color: #3a7bd5;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.form{
+  font-weight: bold;
+}
+
+form {
+  background-color: #fff;
+  padding: 30px;
+  border: 2px solid #ccc;
+  width: 420px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+}

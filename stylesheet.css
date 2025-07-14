@@ -1,0 +1,229 @@
+body {
+  background-color: pink;
+  font-family: "New Roman", Monospace;
+  font-weight: bold;
+  word-spacing: 5px;
+  text-indent: 1cm;
+  text-transform:Capitalize;
+}
+#buu{
+  border-radius: 50%;
+}
+/*ul.muuse{
+  border-radius: 50px 10px 30px.5px;
+  padding: 30px;
+  background-color:lightgreen;
+  list-style-type:lower-alpha;
+  background-image: url(Duuliye.jpg), url(qiin.png);
+  width:100px;
+  background-repeat: repeat;
+}*/
+
+.scrol{
+  display: block;
+  border: 2px solid red;
+  padding: 50px;
+  margin-top: 5px;
+  width:300px;
+  height:10px;
+  overflow: scroll;
+  font-family: fantasy;
+  border-color: red;
+  color:green;
+  word-break: break-all;
+  margin: 30px;
+}
+p.queen{
+  color: black;
+  text-transform:uppercase;
+  column-count: 2;
+  column-gap: 30px;
+  column-rule-style: solid;
+  column-rule-color: green;
+  background-position: right top left top;
+  background-repeat: no-repeat,repeat;
+  padding: 13px;
+  background-size: 500px 500px;
+}
+b{
+    padding:15px;
+    width:400px;
+    height:2vh;
+    
+    border:0px solid red;
+  margin-left:25px;
+  font-family: cursive;
+}
+.menu{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  
+}
+.menu a{
+  text-decoration: none;
+  font-weight: bold;
+  color:blue;
+  margin-top: -0px;
+}
+.navbar {
+  background-color: greenyellow;
+  overflow: hidden;
+}
+
+.navbar ul {
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar li {
+  flex: 1;
+}
+
+.navbar a {
+  display: block;
+  color: brown;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+  background-color: #bc1b1b;
+
+}
+nav a:focus{
+  color: aqua;
+}
+nav li:hover{
+  color: aquamarine;
+}
+
+iframe{
+  margin: 20%;
+  padding: 10px;
+  width: 600px;
+  margin-right: 20px;
+  margin-top: 0%;
+  margin-bottom: 12%;
+}
+#multi{
+  background-image: url(duuliye.jpg);
+  width: 200px;
+  height:250px ;
+}
+h1{
+  background-color: goldenrod;
+  text-align: center;
+  text-shadow: 4px 3px 3px lightgreen;
+  border: 150x solid transparent;
+  padding: 20px;
+  border-image-source: url(arday.png);
+  border-image-repeat: round;
+  border-image-slice: 40px;
+  border-image-width: 30px;
+}
+h1,h2,h3,p:hover{
+  visibility: visible;
+}
+
+h2{
+  background-color: blueviolet;
+  font-family: fantasy;
+  color:black;
+  text-align: center;
+}
+h3{
+  margin-top:-180px;
+  text-align: center;
+  color: red;
+  font-size: 20px;
+  background-image: url(arday.png);
+}
+div{
+  color:rgb(218, 196, 0);
+  font-family: Times new roman, monospace;
+  line-height: 2;
+}
+.imgs{
+  width:400;
+  height: 50;;
+  padding: 5px;
+  border: 2px solid;
+  color:rgb(214, 214, 236);
+  margin:50px;
+  display: flex;
+  
+  justify-content: space-between;
+}
+.maanka{
+  margin-left: 40%;
+  
+}
+.b .n .m{
+        margin-left:50%;}
+a{
+  text-decoration: none;
+}
+a:link    { color: red; }
+a:visited { color: blue; }
+a:active  { color: grey; }
+a:hover   { color: green; }
+footer{
+  margin-top: -10px;
+  text-align: center;
+}
+
+p.buuni {
+  color:white;
+  background-color: rgb(218, 74, 12);
+  background-image: url("duuliye.jpg"), url("logo.jpg");
+  background-repeat: repeat, no-repeat;
+  background-size: 120px, cover;
+  background-position: corner, center;
+  padding: 50px;
+  text-align: center;
+  border-radius: 15px 50px;
+}
+.mydiv {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: red;
+  font-weight: bold;
+  animation-name: cali;
+  margin: 20px;
+ 
+  animation-delay: 1s;
+  animation-duration: 0.8s;
+  animation-iteration-count: infinite;
+  position: absolute;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes cali {
+ 
+  0%{background-color: green; left: 0px; top:200px;}
+  
+  10%{background-color: goldenrod; left: 0px; top: 200px;}
+   
+  20%{background-color: brown; left: 0px; top: 200px;}
+  
+  25%{background-color: greenyellow;left: 0px; top: 200px;}
+ 
+  /* 95%{background-color: white; left: 0px; top: 200px;} */
+  /* 90%{background-color: lawngreen; left: 0px; top: 200px;} */
+  /* 80%{background-color: indigo; left: 0px; top: 200px;} */
+  /* 70%{background-color: paleturquoise; left: 0px; top: 200px;} */
+  /* 60%{background-color: olive; left: 0px; top: 200px;} */
+  /* 55%{background-color: turquoise; left: 0px; top: 200px;} */
+  /* 45%{background-color: rebeccapurple; left: 0px; top: 200px;} */
+  /* 40%{background-color: orangered; left: 0px; top: 200px;} */
+  /* 35%{background-color: goldenrod; left: 0px; top: 200px;} */
+  /* 30%{background-color: hotpink; left: 0px; top: 200px;} */
+  /* 50%{background-color: pink;left: 0px; top :200px;} */
+  /* 100%{background-color: orchid;left: 0px; top: 200px;} */
+}
